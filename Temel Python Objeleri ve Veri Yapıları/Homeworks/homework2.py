@@ -9,6 +9,6 @@ print("Beden Kitle İndeksi Hesaplama programına hoş geldiniz. Lütfen aşağ�
 kilo = int(input("Kilonuz:"))
 boy = int(input("Boyunuz:"))
 
-Beden_kitle_indeksi = kilo / boy * boy
+Beden_kitle_indeksi = kilo / (boy * boy)
 
 print("Girdiğiniz değerlere göre beden kitle indeksiniz: {}".format(Beden_kitle_indeksi))
