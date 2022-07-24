@@ -7,7 +7,7 @@ Beden Kitle İndeksi : Kilo / Boy(m) Boy(m)
 print("Beden Kitle İndeksi Hesaplama programına hoş geldiniz. Lütfen aşağıya kilonuzu ve boyunuzu giriniz.")
 
 kilo = int(input("Kilonuz:"))
-boy = int(input("Boyunuz:"))
+boy = float(input("Boyunuz(metre cinsinden): "))
 
 Beden_kitle_indeksi = kilo / (boy * boy)
 
